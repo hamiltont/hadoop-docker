@@ -1,0 +1,14 @@
+--- pom.xml.orig	2014-02-22 01:00:16.952679995 -0500
++++ pom.xml	2014-02-22 01:00:54.504681104 -0500
+@@ -83,6 +83,11 @@
+       <artifactId>slf4j-log4j12</artifactId>
+       <scope>runtime</scope>
+     </dependency>
++    <dependency>
++       <groupId>org.mortbay.jetty</groupId>
++       <artifactId>jetty-util</artifactId>
++       <scope>test</scope>
++    </dependency>
+   </dependencies>
+ 
+   <build>
